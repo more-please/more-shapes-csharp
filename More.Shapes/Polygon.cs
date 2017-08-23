@@ -30,5 +30,12 @@ namespace More.Shapes
 
 			return mesh;
 		}
+
+		public static Mesh CreateWithSideLength(int sides, float length, float nz = 1)
+		{
+			var angle = 2 * Math.PI / sides;
+			var radius = (length / 2) / Math.Sin(angle);
+			return Create(sides, (float)radius, nz);
+		}
 	}
 }
