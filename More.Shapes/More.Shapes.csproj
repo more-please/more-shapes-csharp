@@ -31,6 +31,7 @@
     <Compile Include="Cylinder.cs" />
     <Compile Include="Mesh.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="Polygon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

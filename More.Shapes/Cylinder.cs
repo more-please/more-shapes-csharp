@@ -8,7 +8,7 @@ namespace More.Shapes
 	{
 		public static Mesh Create(int facets)
 		{
-			Mesh mesh = new Mesh();
+			var mesh = new Mesh();
 
 			// Calculate x/z coordinates around the rim
 			var x = new List<float>();
